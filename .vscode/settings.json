@@ -1,0 +1,13 @@
+{
+    "modustoolbox.toolsPath": "/Applications/ModusToolbox/tools_3.6",
+    "cortex-debug.armToolchainPath": "/Applications/mtb-gcc-arm-eabi/14.2.1/gcc/bin",
+    "cortex-debug.openocdPath": "/Applications/ModusToolboxProgtools-1.5/openocd",
+    "cortex-debug.JLinkGDBServerPath.windows": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+    "cortex-debug.JLinkGDBServerPath.osx": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+    "cortex-debug.JLinkGDBServerPath.linux": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+    "cortex-debug.gccPath": "/Applications/mtb-gcc-arm-eabi/14.2.1/gcc",
+    "clangd.arguments": [
+        "--log=verbose",
+        "--background-index"
+    ]
+}

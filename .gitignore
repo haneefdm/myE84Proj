@@ -39,9 +39,9 @@ Release/
 makefile.init
 
 # Visual Studio Code
-openocd.tcl
-.vscode/
-*.code-workspace
+# openocd.tcl
+# .vscode/
+# *.code-workspace
 
 # IAR Embedded Workbench files
 
