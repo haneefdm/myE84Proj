@@ -9,5 +9,6 @@
     "clangd.arguments": [
         "--log=verbose",
         "--background-index"
-    ]
+    ],
+    "makefile.configureOnOpen": false
 }

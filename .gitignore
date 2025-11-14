@@ -72,6 +72,8 @@ makefile.init
 # IAR Debug List
 /Debug/List
 
+.cache/
+
 # IAR Debug Obj
 /Obj/*.pbd
 /Obj/*.pbd.*
@@ -95,6 +97,8 @@ Backup*
 
 # Trash files
 *.bak
+
+*.idx
 
 
 # Keil uVision files

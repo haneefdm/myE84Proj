@@ -72,7 +72,8 @@
             "breakAfterReset": true,
             "runToEntryPoint": "main",  // Specifies application entry point name where program will halt
             "preLaunchTask": "Build",
-            "showDevDebugOutput": "none",
+            "debugServer": 4711,
+            "showDevDebugOutput": "raw",
             "presentation": {
                 "hidden": false,
                 "group": "CM55_proj_cm55"
