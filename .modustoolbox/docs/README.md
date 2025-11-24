@@ -10,7 +10,7 @@ Auto-generated documentation for this ModusToolbox workspace.
 - [Hardware Resources](hardware-resources.md) - Pins, clocks, memory
 - [API Usage](api-usage.md) - HAL/PDL/BSP API analysis
 
-Last updated: 2025-11-13T20:44:34.628Z
+Last updated: 2025-11-24T20:52:53.022Z
 
 ---
 
