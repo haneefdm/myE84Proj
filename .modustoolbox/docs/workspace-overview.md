@@ -131,9 +131,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
 | Middleware ID|Category|Projects |Versions|Remote URI<br>Local URI |
 |:-------------|:-------|:--------|-------:|:-----------------------|
 |SHIELD_XENSIV_A|Peripheral||0.5.0 release|https://github.com/Infineon/SHIELD_XENSIV_A<br>|
-|abstraction-rtos|Utilities||1.12.0 release<br>1.11.0 release<br>1.10.0 release<br>(and 19 more)|https://github.com/cypresssemiconductorco/abstraction-rtos<br>../mtb_shared/abstraction-rtos/release-v1.12.0|
+|abstraction-rtos|Utilities|proj_cm33_ns|1.12.0 release<br>1.11.0 release<br>1.10.0 release<br>(and 19 more)|https://github.com/cypresssemiconductorco/abstraction-rtos<br>../mtb_shared/abstraction-rtos/release-v1.12.0|
 |airoc-hci-transport|Bluetooth®||1.2.1 release<br>1.2.0 release<br>1.1.0 release<br>1.0.0 release|https://github.com/Infineon/airoc-hci-transport<br>|
-|async-transfer|Middleware||1.1.0 release<br>1.0.0 release|https://github.com/Infineon/async-transfer<br>../mtb_shared/async-transfer/release-v1.1.0|
+|async-transfer|Middleware|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.1.0 release<br>1.0.0 release|https://github.com/Infineon/async-transfer<br>../mtb_shared/async-transfer/release-v1.1.0|
 |audio-codec-ak4954a|Peripheral||1.0.2 release<br>1.0.1 release<br>1.0.0 release|https://github.com/cypresssemiconductorco/audio-codec-ak4954a<br>|
 |audio-codec-tlv320dac3100|Middleware||1.0.0 release|https://github.com/Infineon/audio-codec-tlv320dac3100<br>|
 |audio-codec-wm8960|Peripheral||1.0.0 release|https://github.com/Infineon/audio-codec-wm8960<br>|
@@ -151,7 +151,7 @@ Libraries available for this MCU/board. The projects column lists the projects u
 |bmm150|Peripheral||2.0.0 release|https://github.com/BoschSensortec/BMM150-Sensor-API<br>|
 |bmm350|Peripheral||1.4.0 release|https://github.com/BoschSensortec/BMM350_SensorAPI<br>|
 |bt-audio-profiles|Bluetooth®||2.0.0 release<br>1.0.0 release|https://github.com/Infineon/bt-audio-profiles<br>|
-|bt-fw-ifx-cyw55500a1|Bluetooth®||3.1.0 release<br>2.1.0 release<br>2.2.0 release<br>1.2.0 release<br>1.1.0 release|https://github.com/Infineon/bt-fw-ifx-cyw55500a1<br>../mtb_shared/bt-fw-ifx-cyw55500a1/release-v2.2.0|
+|bt-fw-ifx-cyw55500a1|Bluetooth®|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|3.1.0 release<br>2.1.0 release<br>2.2.0 release<br>1.2.0 release<br>1.1.0 release|https://github.com/Infineon/bt-fw-ifx-cyw55500a1<br>../mtb_shared/bt-fw-ifx-cyw55500a1/release-v2.2.0|
 |bt-fw-mur-cyw55513|Bluetooth®||1.0.0 release|https://github.com/Infineon/bt-fw-mur-cyw55513<br>|
 |btsdk-audio|Bluetooth®||4.9.4 release<br>4.9.1 release<br>4.8.0 release<br>(and 12 more)|https://github.com/cypresssemiconductorco/btsdk-audio<br>|
 |btsdk-common|Bluetooth®||4.7.0 release<br>4.5.0 release<br>4.2.1 release<br>(and 5 more)|https://github.com/cypresssemiconductorco/btsdk-common<br>|
@@ -164,16 +164,16 @@ Libraries available for this MCU/board. The projects column lists the projects u
 |cJSON|Utilities||v1.7.15|https://github.com/DaveGamble/cJSON<br>|
 |camera-dvp-ov7675|Peripheral||0.5.1 release<br>0.5.0 release|https://github.com/Infineon/camera-dvp-ov7675<br>|
 |capsense|Middleware||8.10.0 release<br>8.0.0 release<br>7.0.0 release<br>(and 4 more)|https://github.com/cypresssemiconductorco/capsense<br>|
-|clib-support|Utilities||1.8.0 release<br>1.7.0 release<br>1.6.0 release<br>(and 7 more)|https://github.com/cypresssemiconductorco/clib-support<br>../mtb_shared/clib-support/release-v1.8.0|
-|cmsis|Core||6.1.0 release<br>5.8.2 release<br>5.8.1 release<br>5.8.0 release|https://github.com/Infineon/cmsis<br>../mtb_shared/cmsis/release-v6.1.0|
+|clib-support|Utilities|proj_cm33_ns|1.8.0 release<br>1.7.0 release<br>1.6.0 release<br>(and 7 more)|https://github.com/cypresssemiconductorco/clib-support<br>../mtb_shared/clib-support/release-v1.8.0|
+|cmsis|Core|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|6.1.0 release<br>5.8.2 release<br>5.8.1 release<br>5.8.0 release|https://github.com/Infineon/cmsis<br>../mtb_shared/cmsis/release-v6.1.0|
 |command-console|Middleware||6.3.0 release<br>6.2.1 release<br>6.2.0 release<br>(and 15 more)|https://github.com/cypresssemiconductorco/command-console<br>|
 |connectivity-utilities|Utilities||4.5.2 release<br>4.5.1 release<br>4.5.0 release<br>(and 15 more)|https://github.com/cypresssemiconductorco/connectivity-utilities<br>|
-|core-lib|Core||1.6.0 release<br>1.5.0 release<br>1.4.4 release<br>(and 14 more)|https://github.com/cypresssemiconductorco/core-lib<br>../mtb_shared/core-lib/release-v1.6.0|
-|core-make|Core||3.7.0 release<br>3.6.2 release<br>3.6.1 release<br>(and 22 more)|https://github.com/cypresssemiconductorco/core-make<br>../mtb_shared/core-make/release-v3.7.0|
+|core-lib|Core|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.6.0 release<br>1.5.0 release<br>1.4.4 release<br>(and 14 more)|https://github.com/cypresssemiconductorco/core-lib<br>../mtb_shared/core-lib/release-v1.6.0|
+|core-make|Core|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|3.7.0 release<br>3.6.2 release<br>3.6.1 release<br>(and 22 more)|https://github.com/cypresssemiconductorco/core-make<br>../mtb_shared/core-make/release-v3.7.0|
 |csdadc|Middleware||2.10.0 release<br>2.0.0 release|https://github.com/cypresssemiconductorco/csdadc<br>|
 |csdidac|Middleware||2.10.0 release<br>2.0.0 release|https://github.com/cypresssemiconductorco/csdidac<br>|
 |cy-mbedtls-acceleration|Core||v3.0.0 Release<br>v2.7.0 Release<br>v2.6.0 Release<br>(and 10 more)|https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration<br>|
-|device-db|Core||4.33.0 release<br>4.31.0 release<br>4.29.0 release<br>(and 24 more)|https://github.com/Infineon/device-db<br>/Users/hdm/.modustoolbox/global/device-db/release-v4.31.0|
+|device-db|Core|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|4.33.0 release<br>4.31.0 release<br>4.29.0 release<br>(and 24 more)|https://github.com/Infineon/device-db<br>/Users/hdm/.modustoolbox/global/device-db/release-v4.31.0|
 |dfu|Middleware||6.1.0 release<br>6.0.0 release<br>5.2.0 release<br>(and 4 more)|https://github.com/cypresssemiconductorco/dfu<br>|
 |display-amoled-co5300|Graphics||1.0.0 release<br>1.0.1 release|https://github.com/Infineon/display-amoled-co5300<br>|
 |display-dsi-waveshare-4-3-lcd|Graphics||1.0.0 release|https://github.com/Infineon/display-dsi-waveshare-4-3-lcd<br>|
@@ -191,8 +191,8 @@ Libraries available for this MCU/board. The projects column lists the projects u
 |ethernet-connection-manager|Ethernet||2.2.0 release<br>2.1.1 release<br>2.1.0 release<br>(and 2 more)|https://github.com/Infineon/ethernet-connection-manager<br>|
 |ethernet-core-freertos-lwip-mbedtls|Ethernet||3.0.0 release<br>2.3.1 release<br>2.3.0 release<br>(and 3 more)|https://github.com/Infineon/ethernet-core-freertos-lwip-mbedtls<br>|
 |ethernet-phy-driver|Ethernet||1.2.0 release<br>1.1.0 release<br>1.0.0 release|https://github.com/Infineon/ethernet-phy-driver<br>|
-|freertos|Core||10.6.201 release<br>10.6.2 release<br>10.5.004 release<br>(and 12 more)|https://github.com/cypresssemiconductorco/freertos<br>../mtb_shared/freertos/release-v10.6.201|
-|freertos-posix|Core||1.0.1 release<br>1.0.0 release|https://github.com/Infineon/freertos-posix<br>../mtb_shared/freertos-posix/release-v1.0.1|
+|freertos|Core|proj_cm33_ns|10.6.201 release<br>10.6.2 release<br>10.5.004 release<br>(and 12 more)|https://github.com/cypresssemiconductorco/freertos<br>../mtb_shared/freertos/release-v10.6.201|
+|freertos-posix|Core|proj_cm33_ns|1.0.1 release<br>1.0.0 release|https://github.com/Infineon/freertos-posix<br>../mtb_shared/freertos-posix/release-v1.0.1|
 |fw-cyw20829b1|Bluetooth®||1.0.0 release|https://github.com/Infineon/fw-cyw20829b1<br>|
 |http-client|Middleware||1.8.1 release<br>1.8.0 release<br>1.7.0 release<br>(and 9 more)|https://github.com/cypresssemiconductorco/http-client<br>|
 |http-server|Middleware||3.3.0 release<br>3.2.0 release<br>3.1.0 release<br>(and 12 more)|https://github.com/cypresssemiconductorco/http-server<br>|
@@ -213,11 +213,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
 |ml-tflite-micro|Middleware||3.1.0 Release<br>3.0.1 Release<br>2.0.0 Release<br>2.0.1 Release|https://github.com/Infineon/ml-tflite-micro<br>|
 |motor-ctrl-lib|Middleware||3.0.0 release<br>2.0.0 release<br>1.9.0 release<br>1.8.0 release|https://github.com/Infineon/motor-ctrl-lib<br>|
 |mqtt|Middleware||4.7.0 release<br>4.6.1 release<br>4.6.0 release<br>(and 18 more)|https://github.com/cypresssemiconductorco/mqtt<br>|
-|mtb-dsl-pse8xxgp|Core||1.1.1 release<br>1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-dsl-pse8xxgp<br>../mtb_shared/mtb-dsl-pse8xxgp/release-v1.1.0|
-|mtb-ipc|Middleware||1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-ipc<br>../mtb_shared/mtb-ipc/release-v1.1.0|
+|mtb-dsl-pse8xxgp|Core|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.1.1 release<br>1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-dsl-pse8xxgp<br>../mtb_shared/mtb-dsl-pse8xxgp/release-v1.1.0|
+|mtb-ipc|Middleware|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-ipc<br>../mtb_shared/mtb-ipc/release-v1.1.0|
 |mtb-littlefs|Middleware||3.0.0 release<br>2.1.0 release<br>2.0.1 release<br>2.0.0 release<br>1.0.0 release|https://github.com/cypresssemiconductorco/mtb-littlefs<br>|
 |mtb-pmbus|Middleware||1.0.0 release|https://github.com/Infineon/mtb-pmbus<br>|
-|mtb-srf|Middleware||1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-srf<br>../mtb_shared/mtb-srf/release-v1.1.0|
+|mtb-srf|Middleware|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-srf<br>../mtb_shared/mtb-srf/release-v1.1.0|
 |mtb-stl|Middleware||3.3.1 release<br>3.3.0 release<br>3.2.1 release<br>(and 5 more)|https://github.com/Infineon/mtb-stl<br>|
 |mtb-template-pse8xxgp|Core||1.1.0 release<br>1.0.0 release|https://github.com/Infineon/mtb-template-pse8xxgp<br>|
 |multi-half-bridge|Peripheral||5.0.1 release<br>5.0.0 release|https://github.com/Infineon/multi-half-bridge<br>|
@@ -227,11 +227,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
 |optiga-trust-m|Peripheral||5.3.0 release<br>4.1.0 release<br>3.1.2 release<br>3.1.3 release<br>3.1.4 release|https://github.com/Infineon/optiga-trust-m<br>|
 |ota-bootloader-abstraction|Middleware||1.8.0 release<br>1.7.0 release<br>1.6.0 release<br>(and 8 more)|https://github.com/Infineon/ota-bootloader-abstraction<br>|
 |ota-update|Middleware||4.5.1 release<br>4.5.0 release<br>4.4.0 release<br>(and 11 more)|https://github.com/Infineon/ota-update<br>|
-|retarget-io|Peripheral||1.8.1 release<br>1.8.0 release<br>1.7.0 release<br>(and 7 more)|https://github.com/cypresssemiconductorco/retarget-io<br>../mtb_shared/retarget-io/release-v1.8.1|
+|retarget-io|Peripheral|proj_cm33_ns|1.8.1 release<br>1.8.0 release<br>1.7.0 release<br>(and 7 more)|https://github.com/cypresssemiconductorco/retarget-io<br>../mtb_shared/retarget-io/release-v1.8.1|
 |rgb-led|Peripheral||1.2.1 release<br>1.2.0 release<br>1.1.1 release<br>1.1.0 release<br>1.0.0 release|https://github.com/cypresssemiconductorco/rgb-led<br>|
 |rtlabs-soem-lib|Peripheral||0.X release<br>0.6.0 release|https://github.com/rtlabs-com/mtb-mw-soem<br>|
 |rtlabs-uphy-lib|Peripheral||0.X release<br>0.7.2 release<br>0.7.1 release<br>0.7.0 release<br>0.6.1 release|https://github.com/rtlabs-com/mtb-mw-uphy<br>|
-|se-rt-services-utils|Middleware||1.2.0 release|https://github.com/Infineon/se-rt-services-utils<br>../mtb_shared/se-rt-services-utils/release-v1.2.0|
+|se-rt-services-utils|Middleware|proj_cm33_s<br>proj_cm33_ns<br>proj_cm55|1.2.0 release|https://github.com/Infineon/se-rt-services-utils<br>../mtb_shared/se-rt-services-utils/release-v1.2.0|
 |secure-sockets|Middleware||3.12.0 release<br>3.11.0 release<br>3.10.0 release<br>(and 20 more)|https://github.com/cypresssemiconductorco/secure-sockets<br>|
 |sensor-humidity-sht3x|Peripheral||0.5.0 release|https://github.com/Infineon/sensor-humidity-sht3x<br>|
 |sensor-humidity-sht4x|Peripheral||1.1.0 release<br>1.0.0 release|https://github.com/Infineon/sensor-humidity-sht4x<br>|
@@ -1406,7 +1406,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "bt-fw-ifx-cyw55500a1",
           "category": "Bluetooth®",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/bt-fw-ifx-cyw55500a1",
           "uri": "../mtb_shared/bt-fw-ifx-cyw55500a1/release-v2.2.0",
           "description": "\n    The bt-fw-ifx-cyw55500a1 middleware library provides firmware patches for the CYW555xx AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.\n    "
@@ -1472,7 +1476,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "cmsis",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/cmsis",
           "uri": "../mtb_shared/cmsis/release-v6.1.0",
           "description": "\n    CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm&#174; Cortex&#174; processors.\n    CMSIS defines generic tool interfaces and enables consistent device support. The CMSIS software interfaces simplify software reuse, reduce the learning curve for microcontroller developers, and improve time to market for new devices.\n    CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components.\n    CMSIS includes a delivery mechanism for devices, boards, and software, and enables the combination of software components from multiple vendors.\n    "
@@ -1480,7 +1488,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "core-lib",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/core-lib",
           "uri": "../mtb_shared/core-lib/release-v1.6.0",
           "description": "The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions."
@@ -1488,7 +1500,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "core-make",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/core-make",
           "uri": "../mtb_shared/core-make/release-v3.7.0",
           "description": "\n        Core Make build system provides the make build files and scripts for building and programming ModusToolbox&#8482; applications.\n         Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>\n        <div class=\"category\">Additional Information:</div>\n        <ul>\n          <li><a href=\"https://github.com/Infineon/core-make/blob/master/README.md\">Core Make build system README.md</a></li>\n          <li><a href=\"https://github.com/Infineon/core-make/blob/master/RELEASE.md\">Core Make build system RELEASE.md</a></li>\n        </ul>\n    "
@@ -1504,7 +1520,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "device-db",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/device-db",
           "uri": "/Users/hdm/.modustoolbox/global/device-db/release-v4.31.0",
           "description": "\n        Device database provides device information for project-creator, configurators,\n        and other ModusToolbox&#8482; tools. The device database is tied to the PDL\n        (Peripheral Driver Library) packages available for different device categories.\n        <br/>\n        Update the device-db to the latest version to see the list of the currently\n        supported part numbers in the BSP Assistant tool.\n    "
@@ -1512,7 +1532,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "freertos",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_ns"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/freertos",
           "uri": "../mtb_shared/freertos/release-v10.6.201",
           "description": "\n    A FreeRTOS is a small operating system for microcontrollers. A FreeRTOS kernel is distributed as standard C source files\n     with configuration header file.<br>\n    <br><b>License Disclaimer:</b><br>\n    Adding this library will download and add FreeRTOS to your project. It is your responsibility to understand and accept the FreeRTOS license.<br>\n    <div class=\"category\">Additional Information:</div>\n        <ul>\n          <li><a href=\"https://github.com/Infineon/freertos/blob/master/README.md\">FreeRTOS kernel README.md</a></li>\n          <li><a href=\"https://github.com/Infineon/freertos/blob/master/RELEASE.md\">FreeRTOS kernel RELEASE.md</a></li>\n          <li><a href=\"https://www.freertos.org/index.html\">FreeRTOS home page</a></li>\n        </ul>\n    "
@@ -1520,7 +1542,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "freertos-posix",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_ns"
+          ],
           "remote_uri": "https://github.com/Infineon/freertos-posix",
           "uri": "../mtb_shared/freertos-posix/release-v1.0.1",
           "description": "POSIX implementation for FreeRTOS"
@@ -1544,7 +1568,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "mtb-dsl-pse8xxgp",
           "category": "Core",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/mtb-dsl-pse8xxgp",
           "uri": "../mtb_shared/mtb-dsl-pse8xxgp/release-v1.1.0",
           "description": "Device support library for Explorer PSE8XXGP devices."
@@ -1670,7 +1698,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "async-transfer",
           "category": "Middleware",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/async-transfer",
           "uri": "../mtb_shared/async-transfer/release-v1.1.0",
           "description": "\n    Async Transfer Utility Library provides an implementation of data transfer functions in which the user\n    initiates the data transfer on the desired communication peripheral and then the data transfer happens in the\n    background without the user involvement\n    "
@@ -1958,7 +1990,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "mtb-ipc",
           "category": "Middleware",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/mtb-ipc",
           "uri": "../mtb_shared/mtb-ipc/release-v1.1.0",
           "description": "\n    The IPC driver allows communication between multiple CPUs or between multiple tasks\n    operating in different domains within a single CPU. It supports binary semaphores\n    and message queues, similar to how they are used for task interactions in an RTOS envrionment.\n    "
@@ -1982,7 +2018,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "mtb-srf",
           "category": "Middleware",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/mtb-srf",
           "uri": "../mtb_shared/mtb-srf/release-v1.1.0",
           "description": "\n    The Secure Request Framework (SRF) exists to provide a reusable infastructure for implementing\n    multiple secure operations via a single non-secure-callable entry point.  This framework is\n    designed to be generic with no dependency on or knowledge of any particular hardware operation.\n    "
@@ -2030,7 +2070,11 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "se-rt-services-utils",
           "category": "Middleware",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_s",
+            "proj_cm33_ns",
+            "proj_cm55"
+          ],
           "remote_uri": "https://github.com/Infineon/se-rt-services-utils",
           "uri": "../mtb_shared/se-rt-services-utils/release-v1.2.0",
           "description": "\n    Secure Enclave Runtime Services Utils library provides implementation of service calls to Secure Enclave Runtime Services and provides functionality like PSA Crypto (including side channel protected algorithms), Attestation, Protection and Anti-rollback Counters APIs.<br>\n    "
@@ -2256,7 +2300,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "retarget-io",
           "category": "Peripheral",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_ns"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/retarget-io",
           "uri": "../mtb_shared/retarget-io/release-v1.8.1",
           "description": "The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine."
@@ -2410,7 +2456,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "abstraction-rtos",
           "category": "Utilities",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_ns"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/abstraction-rtos",
           "uri": "../mtb_shared/abstraction-rtos/release-v1.12.0",
           "description": "\n    The RTOS Abstraction Library provides a generic API that allows ModusToolbox&#8482; middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.\n    <br><br><b>Note:</b>\n    This library has specific requirements on the underlying RTOS configuration. See the Readme.md file for details.\n    "
@@ -2434,7 +2482,9 @@ Libraries available for this MCU/board. The projects column lists the projects u
         {
           "middleware_id": "clib-support",
           "category": "Utilities",
-          "used_by_projects": null,
+          "used_by_projects": [
+            "proj_cm33_ns"
+          ],
           "remote_uri": "https://github.com/cypresssemiconductorco/clib-support",
           "uri": "../mtb_shared/clib-support/release-v1.8.0",
           "description": "\n    The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.\n    <br><br><b>Note:</b>\n    FREERTOS flags configUSE_MUTEXES, configUSE_RECURSIVE_MUTEXES, and configSUPPORT_STATIC_ALLOCATION must be enabled\n    "
