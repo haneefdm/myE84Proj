@@ -4,7 +4,7 @@ Workspace Dir: "/Users/hdm/rag/mtbmcp/test/myE84Proj"
 
 This is a ModusToolbox C/C++ Workspace for Infineon Edge MCU Device PSE846GPS2DBZC4A. This MCU is a dual-core device featuring both a Cortex-M33 and a Cortex-M55 core, designed for low-power applications. This document doesn't describe what the application does, it describes organization and tooling required to manage the development process.
 
-**Much more detailed information about the BSP and the MCU can be found at [BSP README](/Users/hdm/rag/mtbmcp/test/myE84Proj/bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/README.md)**
+**Much more detailed information about the BSP and the MCU can be found at [APP_KIT_PSE84_EVAL_EPC2](/Users/hdm/rag/mtbmcp/test/myE84Proj/bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/README.md)**
 
 ## MCU Features at a high level
 The key features of this device include:
