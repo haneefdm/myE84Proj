@@ -40,7 +40,7 @@
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceFolder}",
-                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.5/openocd/scripts/",
+                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.6/openocd/scripts/",
                 "bsps/TARGET_APP_KIT_PSE84_EVAL_EPC2/config/GeneratedSource"
             ],
             "configFiles": [
@@ -73,8 +73,7 @@
             "breakAfterReset": true,
             "runToEntryPoint": "main",  // Specifies application entry point name where program will halt
             "preLaunchTask": "Build",
-            "debugServer": 4711,
-            "showDevDebugOutput": "raw",
+            "showDevDebugOutput": "none",
             "presentation": {
                 "hidden": false,
                 "group": " Multi-core"

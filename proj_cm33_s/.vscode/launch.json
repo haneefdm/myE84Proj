@@ -89,7 +89,7 @@
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceFolder}",
-                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.5/openocd/scripts/"
+                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.6/openocd/scripts/"
             ],
             "openOCDPreConfigLaunchCommands": [
                 "set ENABLE_ACQUIRE 0",

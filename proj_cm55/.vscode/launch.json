@@ -72,8 +72,7 @@
             "breakAfterReset": true,
             "runToEntryPoint": "main",  // Specifies application entry point name where program will halt
             "preLaunchTask": "Build",
-            "debugServer": 4711,
-            "showDevDebugOutput": "raw",
+            "showDevDebugOutput": "none",
             "presentation": {
                 "hidden": false,
                 "group": "CM55_proj_cm55"
@@ -91,7 +90,7 @@
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceFolder}",
-                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.5/openocd/scripts/"
+                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.6/openocd/scripts/"
             ],
             "openOCDPreConfigLaunchCommands": [
                 "set ENABLE_ACQUIRE 0",
@@ -139,7 +138,7 @@
             "gdbTarget": "localhost:50001",
             "searchDir": [
                 "${workspaceFolder}",
-                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.5/openocd/scripts/"
+                "${config:modustoolbox.toolsPath}/../../ModusToolboxProgtools-1.6/openocd/scripts/"
             ],
             "openOCDPreConfigLaunchCommands": [
                 "set ENABLE_ACQUIRE 0"

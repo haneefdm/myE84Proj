@@ -1,4 +1,6 @@
 {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -8,14 +10,15 @@
             "args": [
                 "--norc",
                 "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make build TOOLCHAIN=GCC_ARM CONFIG=Debug "
+                "make -j4 build"
             ],
-            "windows": {
+
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe build TOOLCHAIN=GCC_ARM CONFIG=Debug"
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j4 build"
                 ]
             },
             "problemMatcher": "$gcc",
@@ -27,13 +30,9 @@
         {
             "label": "Rebuild",
             "dependsOrder": "sequence",
-            "dependsOn": [
-                "Clean",
-                "Build"
-            ],
+            "dependsOn" : [ "Clean", "Build" ],
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind": "build"
             }
         },
         {
@@ -43,15 +42,19 @@
             "args": [
                 "--norc",
                 "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make clean  "
+                "make clean"
             ],
-            "windows": {
+
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe clean "
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe clean"
                 ]
+            },
+            "group": {
+                "kind": "build"
             }
         },
         {
@@ -61,14 +64,15 @@
             "args": [
                 "--norc",
                 "-c",
-                "make -j10 program"
+                "make -j4 program"
             ],
-            "windows": {
+
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j10 program"
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j4 program"
                 ]
             },
             "problemMatcher": "$gcc",
@@ -83,15 +87,19 @@
             "args": [
                 "--norc",
                 "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make erase  "
+                "make -j4 erase"
             ],
-            "windows": {
+
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe erase "
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j4 erase"
                 ]
+            },
+            "group": {
+                "kind": "build"
             }
         },
         {
@@ -101,15 +109,19 @@
             "args": [
                 "--norc",
                 "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make erase MTB_ERASE_EXT_MEM=1 "
+                "make -j4 erase MTB_ERASE_EXT_MEM=1"
             ],
-            "windows": {
+
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe erase MTB_ERASE_EXT_MEM=1"
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe -j4 erase MTB_ERASE_EXT_MEM=1"
                 ]
+            },
+            "group": {
+                "kind": "build"
             }
         },
         {
@@ -121,53 +133,12 @@
                 "-c",
                 "make modlibs MTB__JOB_BACKGROUND="
             ],
-            "windows": {
+            "windows" : {
                 "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
                 "args": [
                     "--norc",
                     "-c",
                     "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe modlibs MTB__JOB_BACKGROUND="
-                ]
-            }
-        },
-        {
-            "label": "Build & Program",
-            "type": "process",
-            "command": "bash",
-            "args": [
-                "--norc",
-                "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make program TOOLCHAIN=GCC_ARM CONFIG=Debug "
-            ],
-            "windows": {
-                "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
-                "args": [
-                    "--norc",
-                    "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe program TOOLCHAIN=GCC_ARM CONFIG=Debug"
-                ]
-            },
-            "problemMatcher": "$gcc",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
-            "label": "Quick Program",
-            "type": "process",
-            "command": "bash",
-            "args": [
-                "--norc",
-                "-c",
-                "export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; make qprogram  "
-            ],
-            "windows": {
-                "command": "${config:modustoolbox.toolsPath}/modus-shell/bin/bash.exe",
-                "args": [
-                    "--norc",
-                    "-c",
-                    "export PATH=/bin:/usr/bin:$PATH ; export CY_TOOLS_PATHS=${config:modustoolbox.toolsPath} ; ${config:modustoolbox.toolsPath}/modus-shell/bin/make.exe qprogram "
                 ]
             }
         }
